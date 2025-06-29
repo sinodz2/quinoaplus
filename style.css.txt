@@ -1,26 +1,32 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-<head>
-  <meta charset="UTF-8">
-  <title>Plateforme Quinoa Plus</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Plateforme Quinoa Plus</h1>
-    <nav>
-      <a href="index-fr.html">Accueil</a>
-      <a href="index.html">العربية</a>
-    </nav>
-  </header>
+body {
+  font-family: Tahoma, sans-serif;
+  direction: rtl;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
 
-  <main>
-    <h2>Bienvenue sur la plateforme du quinoa algérien</h2>
-    <p>Découvrez les bienfaits du quinoa et achetez directement auprès des agriculteurs locaux.</p>
-  </main>
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
 
-  <footer>
-    <p>© 2025 Quinoa Plus – Tous droits réservés</p>
-  </footer>
-</body>
-</html>
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
